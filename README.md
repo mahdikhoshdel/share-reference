@@ -10,7 +10,7 @@ When we check equality of those variables using `is` it's return `True`:
 a is b
 True
 ```
-But that is the interest part, its `True` when `variable < 257`:
+But that is the interest part, its `True` when `-6 < variable < 257`:
 ```
 a = 256
 b = 256
